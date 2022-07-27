@@ -11,7 +11,7 @@ def bin_search(a:Sequence, key:Any) -> int:
             pl=pc+1
         else:
             pr=pc-1
-        if pl>pc:
+        if pl>pr:
             break
     return -1
 
